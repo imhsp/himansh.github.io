@@ -174,12 +174,6 @@ class Footer extends HTMLElement {
                                 </a>
                             </span>
                             <span class="fa-stack">
-                                <a href="https://github.com/imhsp">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
                                 <a href="https://www.facebook.com/imhsp">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-facebook-f fa-stack-1x"></i>
