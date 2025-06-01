@@ -263,6 +263,30 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
     <script src="form.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCTSu04ZdO4kEerpdk9mVIffClMxLx1cEA",
+          authDomain: "website-himansh.firebaseapp.com",
+          projectId: "website-himansh",
+          storageBucket: "website-himansh.firebasestorage.app",
+          messagingSenderId: "734253145227",
+          appId: "1:734253145227:web:9caed4943eff71b134488e",
+          measurementId: "G-CNG5090KNW"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 
 </html>
