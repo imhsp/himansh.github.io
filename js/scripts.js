@@ -168,12 +168,12 @@ class Footer extends HTMLElement {
                     <div class="col-lg-12">
                         <div class="social-container">
                             <span class="fa-stack">
-                                <a href="https://www.linkedin.com/in/imhsp/">
+                                <a href="https://www.linkedin.com/company/himanshstudios/about/">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
+                            <!--<span class="fa-stack">
                                 <a href="https://www.facebook.com/imhsp">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-facebook-f fa-stack-1x"></i>
@@ -196,7 +196,7 @@ class Footer extends HTMLElement {
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-twitter fa-stack-1x"></i>
                                 </a>
-                            </span>
+                            </span>-->
                         </div> <!-- end of social-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
